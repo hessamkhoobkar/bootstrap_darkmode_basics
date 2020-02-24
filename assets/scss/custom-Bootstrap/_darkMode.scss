@@ -1,0 +1,279 @@
+body[data-theme="dark"] {
+
+        color: $white;
+        background-color: $gray-900;
+
+
+        // Forms and form controls
+
+        .form-control, .custom-file-label ,.custom-select {
+            color: $gray-200;
+            background-color: $gray-900;
+            border-color: $gray-700;
+        }
+
+        .was-validated .form-control:valid, .form-control.is-valid {
+            border-color: $success;
+        }
+
+        .was-validated .form-control:invalid, .form-control.is-invalid {
+            border-color: $danger;
+        }
+
+        .input-group-text {
+            color: $gray-400;
+            background-color: $gray-800;
+            border-color: $gray-700;
+        }
+
+        .custom-control-label::before {
+            background-color: $gray-800;
+            border-color: $gray-700;
+        }
+        
+        .custom-control-input[disabled] ~ .custom-control-label::before, .custom-control-input:disabled ~ .custom-control-label::before {
+            background-color: $gray-900;
+            border-color: $gray-800;
+        }
+
+        // Table
+
+        .table {
+            color: $white;
+        }
+
+        .table-active, .table-active > th, .table-active > td {
+            background-color: $gray-800;
+        }
+
+        .table-hover .table-active:hover {
+            background-color: $gray-800;
+        }
+        .table-hover tbody tr:hover {
+            color: $gray-200;
+            background-color: $gray-800;
+        }
+
+        .table thead th {
+            border-color: $gray-700;
+        }
+        .table th, .table td {
+            border-color: $gray-700;
+        }
+        .table-primary, .table-primary > th, .table-primary > td {
+            background-color: $primary;
+        }
+        .table-hover .table-primary:hover > td, .table-hover .table-primary:hover > th {
+            background-color: rgba($primary, .8);
+        }
+        .table-secondary, .table-secondary > th, .table-secondary > td {
+            background-color: $secondary;
+        }
+        .table-hover .table-secondary:hover > td, .table-hover .table-secondary:hover > th {
+            background-color: rgba($secondary, .8);
+        }
+        .table-success, .table-success > th, .table-success > td {
+            background-color: $success;
+        }
+        .table-hover .table-success:hover > td, .table-hover .table-success:hover > th {
+            background-color: rgba($success, .8);
+        }
+        .table-danger, .table-danger > th, .table-danger > td {
+            background-color: $danger;
+        }
+        .table-hover .table-danger:hover > td, .table-hover .table-danger:hover > th {
+            background-color: rgba($danger, .8);
+        }
+        .table-warning, .table-warning > th, .table-warning > td {
+            background-color: $warning;
+        }
+        .table-hover .table-warning:hover > td, .table-hover .table-warning:hover > th {
+            background-color: rgba($warning, .8);
+        }
+        .table-info, .table-info > th, .table-info > td {
+            background-color: $info;
+        }
+        .table-hover .table-info:hover > td, .table-hover .table-info:hover > th {
+            background-color: rgba($info, .8);
+        }
+        .table-light, .table-light > th, .table-light > td {
+            color: $gray-900;
+            background-color: $light;
+        }
+        .table-hover .table-light:hover > td, .table-hover .table-light:hover > th {
+            color: $gray-800;
+            background-color: rgba($light, .9);
+        }
+
+        // Breadcrumb
+
+        .breadcrumb {
+            background-color: $gray-800;
+        }
+        .breadcrumb-item.active {
+            color: $gray-500;
+        }
+
+        // Pagination
+
+        .page-link {
+            color: $gray-200;
+            background-color: $gray-800;
+            border-color: $gray-700;
+        }
+        .page-item.disabled .page-link {
+            color: $gray-600;
+            background-color: $gray-900;
+            border-color: $gray-700;
+        }
+
+        // Tabs
+
+        .nav-tabs {
+            border-color: $gray-700;
+        }
+        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+            color: $gray-200;
+            background-color: $gray-800;
+            border-color: $gray-700;
+        }
+        .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+            border-color: $gray-700;
+        }
+
+        // Dropdown
+
+        .dropdown-menu {
+            color: $gray-200;
+            background-color: $gray-800;
+        }
+        .dropdown-item {
+            color: $gray-200;
+        }
+        .dropdown-item:hover, .dropdown-item:focus {
+            color: $white;
+            background-color: $gray-700;
+        }
+        .dropdown-divider {
+            border-color: $gray-700;
+        }
+
+        // Progress
+
+        .progress {
+            background-color: $gray-800;
+        }
+
+        // Alert
+
+        .alert-primary {
+            color: darken($primary, 35);
+            background-color: $primary;
+            border-color: darken($primary, 20);
+        }
+        .alert-secondary {
+            color: darken($secondary, 35);
+            background-color: $secondary;
+            border-color: darken($secondary, 20);
+        }
+        .alert-success {
+            color: darken($success, 35);
+            background-color: $success;
+            border-color: darken($success, 20);
+        }
+        .alert-info {
+            color: darken($info, 35);
+            background-color: $info;
+            border-color: darken($info, 20);
+        }
+        .alert-warning {
+            color: darken($warning, 35);
+            background-color: $warning;
+            border-color: darken($warning, 20);
+        }
+        .alert-danger {
+            color: darken($danger, 35);
+            background-color: $danger;
+            border-color: darken($danger, 20);
+        }
+        .alert-light {
+            color: darken($light, 35);
+            background-color: $light;
+            border-color: darken($light, 20);
+
+            .close {
+                color: $gray-900;
+                text-shadow: 0 1px 0 $gray-900;
+            }
+        }
+        .alert-dark {
+            color: darken($dark, 35);
+            background-color: $dark;
+            border-color: darken($dark, 20);
+        }
+
+        // Jumbotron
+
+        .jumbotron {
+            background-color: $gray-800;
+        }
+
+        hr {
+            border-color: $gray-700;
+        }
+
+        // list-group
+
+        .list-group-item {
+            background-color: $gray-800;
+            border-color: $gray-700;
+        }
+        .list-group-item-action {
+            color: $gray-100;
+        }
+        .list-group-item.active {
+            background-color: $primary;
+            border-color: $primary;
+        }
+        .list-group-item.disabled, .list-group-item:disabled {
+            background-color: $gray-900;
+            border-color: $gray-700;
+            color: $gray-700;
+        }
+
+        // Card
+
+        .card {
+            background-color: $gray-800;
+        }
+        .card.bg-light {
+            color: $gray-900;
+        }
+
+        // Modal
+
+        .modal-content {
+            background-color: $gray-800;
+        }
+        .modal-header {
+            border-color: $gray-700;
+        }
+        .modal-footer {
+            border-color: $gray-700;
+        }
+
+        // Toast
+        
+        .toast {
+            background-color: $gray-800;
+        }
+        .toast-header {
+            color: $white;
+            background-color: $gray-700;
+        }
+
+        .close {
+            color: $white;
+            text-shadow: 0 1px 0 $white;
+        }
+}

@@ -1,0 +1,45 @@
+// Base functions
+@import "core-bootstrap/functions";
+
+// Custom variables
+@import "custom-Bootstrap/variables";
+
+// Core bootstrap files
+@import "core-bootstrap/mixins";
+@import "core-bootstrap/root";
+@import "core-bootstrap/reboot";
+@import "core-bootstrap/type";
+@import "core-bootstrap/images";
+@import "core-bootstrap/code";
+@import "core-bootstrap/grid";
+@import "core-bootstrap/tables";
+@import "core-bootstrap/forms";
+@import "core-bootstrap/buttons";
+@import "core-bootstrap/transitions";
+@import "core-bootstrap/dropdown";
+@import "core-bootstrap/button-group";
+@import "core-bootstrap/input-group";
+@import "core-bootstrap/custom-forms";
+@import "core-bootstrap/nav";
+@import "core-bootstrap/navbar";
+@import "core-bootstrap/card";
+@import "core-bootstrap/breadcrumb";
+@import "core-bootstrap/pagination";
+@import "core-bootstrap/badge";
+@import "core-bootstrap/jumbotron";
+@import "core-bootstrap/alert";
+@import "core-bootstrap/progress";
+@import "core-bootstrap/media";
+@import "core-bootstrap/list-group";
+@import "core-bootstrap/close";
+@import "core-bootstrap/toasts";
+@import "core-bootstrap/modal";
+@import "core-bootstrap/tooltip";
+@import "core-bootstrap/popover";
+@import "core-bootstrap/carousel";
+@import "core-bootstrap/spinners";
+@import "core-bootstrap/utilities";
+@import "core-bootstrap/print";
+
+@import "custom-Bootstrap/kitchenSink";
+@import "custom-Bootstrap/darkMode";
